@@ -85,7 +85,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="160sp"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:textColor="#05084d"
             android:textSize="15sp"
@@ -95,7 +95,7 @@
         </TextView>
 
         <TextView
-            android:layout_width="160sp"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:textColor="#05084d"
             android:textSize="15sp"
