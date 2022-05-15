@@ -43,7 +43,7 @@
         android:id="@+id/lineeditmath">
 
         <EditText
-            android:layout_width="160sp"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:id="@+id/math_firstnum"
             android:textColor="#05084d"
@@ -53,7 +53,7 @@
 
         <EditText
             android:id="@+id/math_secondnum"
-            android:layout_width="160sp"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:textColor="#05084d"
             android:textSize="15sp"
