@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backbanner"
+    tools:context=".TransferActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VismutTransfer"
+        android:gravity="center"
+        android:id="@+id/namestr"
+        android:textColor="#05084d"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textontop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Здесь будет результат вычислений"
+        android:textStyle="bold"
+        android:layout_below="@+id/namestr"
+        android:layout_marginTop="40sp"
+        android:textColor="#05084d">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:id="@+id/lineedit"
+        android:layout_below="@+id/textontop"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/number"
+            android:textStyle="bold"
+            android:textColor="#05084d"
+            android:textSize="15sp"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#05084d"
+            android:textSize="15sp"
+            android:id="@+id/numsysfrom"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#05084d"
+            android:textSize="15sp"
+            android:id="@+id/numsysto"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linetext"
+        android:layout_below="@+id/lineedit"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Число для перевода"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#05084d">
+        </TextView>
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Из"
+            android:textStyle="bold"
+            android:textColor="#05084d"
+            android:textSize="15sp">
+        </TextView>
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="В"
+            android:textSize="15sp"
+            android:textColor="#05084d"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttongo"
+        android:background="@drawable/design_button_v1"
+        android:text="  Выполнить перевод  "
+        android:textSize="15sp"
+        android:layout_below="@+id/linetext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:textStyle="bold"
+        android:textColor="#05084d">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Особенности работы  "
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="10sp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:id="@+id/button_info_special_t"
+        android:textColor="#05084d"
+        android:background="@drawable/design_button_v1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+
+</RelativeLayout>
