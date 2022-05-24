@@ -67,7 +67,7 @@ public class MathActivity extends AppCompatActivity {
                 else{
                     fromDecimalNumber content = ControlMath.calculate(new ControlMath.DataPath(numb1, numb2, fromSys, toSys), "add");
                     if(content == null){
-                        Toast.makeText(MathActivity.this, "Произошла ошибка.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MathActivity.this, "Данные введены неправильно.", Toast.LENGTH_SHORT).show();
                         result.setText("");
                     }
                     else{
@@ -103,7 +103,7 @@ public class MathActivity extends AppCompatActivity {
                 else{
                     fromDecimalNumber content = ControlMath.calculate(new ControlMath.DataPath(numb1, numb2, fromSys, toSys), "subtract");
                     if(content == null){
-                        Toast.makeText(MathActivity.this, "Произошла ошибка.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MathActivity.this, "Данные введены неправильно.", Toast.LENGTH_SHORT).show();
                         result.setText("");
                     }
                     else{
@@ -139,7 +139,7 @@ public class MathActivity extends AppCompatActivity {
                 else{
                     fromDecimalNumber content = ControlMath.calculate(new ControlMath.DataPath(numb1, numb2, fromSys, toSys), "multiply");
                     if(content == null){
-                        Toast.makeText(MathActivity.this, "Произошла ошибка.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MathActivity.this, "Данные введены неправильно.", Toast.LENGTH_SHORT).show();
                         result.setText("");
                     }
                     else{
@@ -175,7 +175,7 @@ public class MathActivity extends AppCompatActivity {
                 else{
                     fromDecimalNumber content = ControlMath.calculate(new ControlMath.DataPath(numb1, numb2, fromSys, toSys), "divide");
                     if(content == null){
-                        Toast.makeText(MathActivity.this, "Произошла ошибка.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MathActivity.this, "Данные введены неправильно.", Toast.LENGTH_SHORT).show();
                         result.setText("");
                     }
                     else{
@@ -211,7 +211,7 @@ public class MathActivity extends AppCompatActivity {
                 else{
                     fromDecimalNumber content = ControlMath.calculate(new ControlMath.DataPath(numb1, numb2, fromSys, toSys), "pow");
                     if(content == null){
-                        Toast.makeText(MathActivity.this, "Произошла ошибка.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MathActivity.this, "Данные введены неправильно.", Toast.LENGTH_SHORT).show();
                         result.setText("");
                     }
                     else{
